@@ -41,11 +41,13 @@ $make
 $./analy_sound  
 provide an input for nMax > 0 (1~50 is recommend) : 10
   ```  
+  
 4.  After execution, four files will be generated to your 
 	current working directory. We can see them using command `ls`  
   ```bash
 $ls     
   ```
+  
 1. (Optional) After finishing these procedure, you can execute
 `make clean` to remove all `.o` files and executable `analy_sound`   
   ```bash
