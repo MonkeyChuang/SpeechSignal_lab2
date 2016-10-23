@@ -52,7 +52,9 @@ The following instructions are carried out based on `Bash`:
 	make clean
 	rm analy_sound *.o
 	```
-	 
+```bash
+makepanda\makepanda.bat --everything --installer --no-eigen
+```	 
 ## Some Variables You Need to Know
 |Variable Name|value|Meaning|	 
 |:------------|:---:|------:|
