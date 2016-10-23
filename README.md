@@ -31,28 +31,29 @@ The following instructions are carried out based on `Bash`:
 
 1.  Clone or Download the [repository](https://github.com/MonkeyChuang/SpeechSignal_lab2.git).    
 2.  Run `make` to compile and link the source and header files   
-```bash
+  ```bash
 $make
-```   
+  ```  
+ 
 3.  Run the executable file `analy_sound`, and it will ask you
 	to provide an input for `nMax`, you can see what this variable stands for in the next section.   
-```bash
+  ```bash
 $./analy_sound  
 provide an input for nMax > 0 (1~50 is recommend) : 10
-```  
+  ```  
 4.  After execution, four files will be generated to your 
 	current working directory. We can see them using command `ls`  
-```bash
+  ```bash
 $ls   
 sample_sound.c	wavfile.c			wavfile.h		analy_sound    
 sound_o.wav		sound_n1.wav		sound_n2.wav		coef.txt   
-```
-5. (Optional) After finishing these procedure, you can execute
+  ```
+1. (Optional) After finishing these procedure, you can execute
 `make clean` to remove all `.o` files and executable `analy_sound`   
-```bash
+  ```bash
 $make clean
 rm analy_sound *.o
-```
+  ```
 
 ## Some Variables You Need to Know
 |Variable Name|value|Meaning|	 
