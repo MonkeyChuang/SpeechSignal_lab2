@@ -45,13 +45,15 @@ provide an input for nMax > 0 (1~50 is recommend) : 10
 4.  After execution, four files will be generated to your 
 	current working directory. We can see them using command `ls`  
   ```bash
-$ls     
+$ls   
+sample_sound.c	wavfile.c			wavfile.h		analy_sound    
+sound_o.wav		sound_n1.wav		sound_n2.wav		coef.txt   
   ```
   
 1. (Optional) After finishing these procedure, you can execute
 `make clean` to remove all `.o` files and executable `analy_sound`   
   ```bash
-$make clean  
+$make clean
 rm analy_sound *.o
   ```
 
