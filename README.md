@@ -47,11 +47,11 @@ The following instructions are carried out based on `Bash`:
 	sound_o.wav		sound_n1.wav		sound_n2.wav		coef.txt   
 	```
 1. (Optional) After finishing these procedure, you can execute
-	`make clean` to remove all `.o` files and executable `analy_sound`   
-	```bash
-	make clean
-	rm analy_sound *.o
-	```
+`make clean` to remove all `.o` files and executable `analy_sound`   
+```bash
+make clean
+rm analy_sound *.o
+```
 ```bash
 makepanda\makepanda.bat --everything --installer --no-eigen
 ```	 
