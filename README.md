@@ -36,7 +36,7 @@ $make
   ```  
  
 3.  Run the executable file `analy_sound`, and it will ask you
-	to provide an input for `nMax`, you can see what this variable stands for in the next section.   
+	to provide an input for `nMax`, you can see what this variable stands for in the [next section](#Some-Variables-You-Need-to-Know).   
   ```bash
 $./analy_sound  
 provide an input for nMax > 0 (1~50 is recommend) : 10
