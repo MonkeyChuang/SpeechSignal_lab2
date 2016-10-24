@@ -63,6 +63,7 @@ rm analy_sound *.o
 |rate|44100|Sample Rate|
 |T|1/440|Period T|
 |totalTime|5|Total Time|
+|length|[rate x totalTime]|length of partition {t_i}|
 |nMax|(defined by user)|N|
 ## Output files
 The following `.wav` files are created with sample rate 44100 Hz. Each sounds' total time is 5 seconds. 
