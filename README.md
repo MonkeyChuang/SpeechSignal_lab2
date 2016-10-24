@@ -36,7 +36,7 @@ $make
   ```  
  
 3.  Run the executable file `analy_sound`, and it will ask you
-	to provide an input for `nMax`, you can see what this variable stands for in the [next section](#SVYNK).   
+	to provide an input for `nMax`, you can see what this variable stands for in the [next section](#svynk).   
   ```bash
 $./analy_sound  
 provide an input for nMax > 0 (1~50 is recommend) : 10
@@ -57,7 +57,7 @@ $make clean
 rm analy_sound *.o
   ```
 
-## <a name="SVYNK"></a>Some Variables You Need to Know
+## <a name="svynk"></a>Some Variables You Need to Know
 |Variable Name|value|Meaning|	 
 |:------------|:---:|------:|
 |rate|44100|Sample Rate|
