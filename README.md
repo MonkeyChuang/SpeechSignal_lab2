@@ -29,7 +29,7 @@ What we're going to do is to generate the sounds, with file format `.wav`, of fu
 ### Build and Run
 The following instructions are carried out based on `Bash`:  
 
-1.  Clone or Download the [repository](https://github.com/MonkeyChuang/SpeechSignal_lab2.git).    
+1.  Clone or Download the [repository](https://github.com/MonkeyChuang/SpeechSignal_lab2/archive/master.zip).    
 2.  Run `make` to compile and link the source and header files   
   ```bash
 $make
